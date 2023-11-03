@@ -7,4 +7,3 @@ torchvision
 requests
 Pillow
 gunicorn == 20.0.4
-Werkzeug
