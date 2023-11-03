@@ -116,7 +116,7 @@ def disease_prediction():
             return redirect(request.url)
         file = request.files.get('file')
         if not file:
-            return render_template('https://usbong.onrender.com/index.html')
+            return render_template('index.html')
         try:
             img = file.read()
 
