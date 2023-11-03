@@ -109,14 +109,14 @@ def index():
 
 @app.route('/disease-predict', methods=['GET', 'POST'])
 def disease_prediction():
-    title = 'Harvestify - Disease Detection'
+    title = 'Disease Detection'
 
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
         file = request.files.get('file')
         if not file:
-            return render_template('index.html')
+            return render_template('https://usbong.onrender.com/index.html')
         try:
             img = file.read()
 
