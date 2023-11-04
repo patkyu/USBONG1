@@ -112,7 +112,7 @@ def index():
 def disease_prediction():
     title = 'Disease Detection'
 
-    if request.method == 'POST':
+    if request.method == 'GET':
         if 'file' not in request.files:
             return redirect(request.url)
         file = request.files.get('file')
