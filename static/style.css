@@ -166,12 +166,16 @@ p {
 }
 
 /* Glass file input styles */
+<<<<<<< HEAD
 .glass-file-input-wrapper {
   position: relative;
   display: inline-block;
 }
 
 .glass-file-input-label {
+=======
+.glass-file-input {
+>>>>>>> 4ab4145d01eecbd2cc9cb7d88bb510cd6a00e289
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
@@ -187,11 +191,16 @@ p {
   letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
 .glass-file-input-label:hover {
+=======
+.glass-file-input:hover {
+>>>>>>> 4ab4145d01eecbd2cc9cb7d88bb510cd6a00e289
   background: rgba(255, 255, 255, 0.3);
 }
 
 .glass-file-input-hidden {
+<<<<<<< HEAD
   position: absolute;
   top: 0;
   left: 0;
@@ -199,4 +208,7 @@ p {
   height: 100%;
   opacity: 0;
   cursor: pointer;
+=======
+  display: none;
+>>>>>>> 4ab4145d01eecbd2cc9cb7d88bb510cd6a00e289
 }
