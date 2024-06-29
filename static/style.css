@@ -1,30 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;  
+  vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -66,6 +71,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
 h2 {
   text-transform: uppercase;
   font-size: 50px;
@@ -73,6 +79,7 @@ h2 {
   color: #ffffff;
   letter-spacing: 0.05em;
 }
+
 h1::after {
   content: '';
   width: 80px;
@@ -82,6 +89,7 @@ h1::after {
   margin: 30px auto;
   line-height: 1.1;
 }
+
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
@@ -98,6 +106,7 @@ p {
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 8px;
   }
@@ -107,15 +116,19 @@ p {
   #intro {
     padding: 0 10px;
   }
+
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 6px;
   }
+
   p {
     font-size: 18px;
   }
+
   .btn {
     font-size: 16px;
   }
@@ -125,28 +138,65 @@ p {
   h1 {
     font-size: 15px;
   }
+
   h1::after {
     height: 4px;
   }
 }
 
-    /* Glass button styles */
-    .glass-button {
-      background-color: transparent;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 20px;
-      font-size: 16px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-      cursor: pointer;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      outline: none;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    
-    .glass-button:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
+/* Glass button styles */
+.glass-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Glass file input styles */
+.glass-file-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.glass-file-input-label {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.glass-file-input-label:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.glass-file-input-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
