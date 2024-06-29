@@ -130,23 +130,48 @@ p {
   }
 }
 
-    /* Glass button styles */
-    .glass-button {
-      background-color: transparent;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 20px;
-      font-size: 16px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-      cursor: pointer;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      outline: none;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    
-    .glass-button:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
+/* Glass button styles */
+.glass-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Glass file input styles */
+.glass-file-input {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.glass-file-input:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.glass-file-input-hidden {
+  display: none;
+}
